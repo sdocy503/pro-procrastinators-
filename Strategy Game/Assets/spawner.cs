@@ -13,7 +13,7 @@ public class spawner : MonoBehaviour {
     void Start () {
         
     }
-	public void spawn()
+	public void OnMouseDown()
     {
         //spawnPoint.x = 8.0f;
         //spawnPoint.y = 5.0f;

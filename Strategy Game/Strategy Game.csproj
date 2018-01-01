@@ -80,6 +80,7 @@
   <ItemGroup>
     <Compile Include="Assets\BackgroundClick.cs" />
     <Compile Include="Assets\Movement.cs" />
+    <Compile Include="Assets\OnClick.cs" />
     <Compile Include="Assets\globals.cs" />
     <Compile Include="Assets\lvlmgr.cs" />
     <Compile Include="Assets\spawner.cs" />

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Movement : MonoBehaviour {
-    const float speed = 0.5f;
+    const float speed = 1.0f;
 	// Use this for initialization
 	void Start () {
         

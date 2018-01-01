@@ -12,11 +12,14 @@ public class BackgroundClick : MonoBehaviour, IPointerDownHandler
 	}
 	public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("hello");
-        globals.mouse2 = eventData.position;
-        globals.moveTo = globals.mouse2;
-        globals.moveTo = globals.cam.ScreenToWorldPoint(globals.moveTo);
-        Debug.Log(globals.moveTo);
+        if (eventData.button == PointerEventData.InputButton.Right)
+        {
+            //Debug.Log("hello");
+            globals.mouse2 = eventData.position;
+            globals.moveTo = globals.mouse2;
+            globals.moveTo = globals.cam.ScreenToWorldPoint(globals.moveTo);
+            Debug.Log(globals.moveTo);
+        }
     }
 	// Update is called once per frame
 	void Update () {
