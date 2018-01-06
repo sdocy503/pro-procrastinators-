@@ -78,12 +78,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BackgroundClick.cs" />
-    <Compile Include="Assets\Movement.cs" />
-    <Compile Include="Assets\OnClick.cs" />
-    <Compile Include="Assets\globals.cs" />
-    <Compile Include="Assets\lvlmgr.cs" />
-    <Compile Include="Assets\spawner.cs" />
+    <Compile Include="Assets\Scripts\BackgroundClick.cs" />
+    <Compile Include="Assets\Scripts\ButtonControls.cs" />
+    <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\OnClick.cs" />
+    <Compile Include="Assets\Scripts\globals.cs" />
+    <Compile Include="Assets\Scripts\lvlmgr.cs" />
+    <Compile Include="Assets\Scripts\spawner.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
