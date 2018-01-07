@@ -9,7 +9,7 @@ public class globals : MonoBehaviour {
     // Use this for initialization
     void Start () {
         cam = Camera.main;
-        moveTo = spawner.spawnPoint;
+        moveTo = actualSpawner.spawnPoint;
 	}
 	
 	// Update is called once per frame
