@@ -15,6 +15,7 @@ public class BackgroundClick : MonoBehaviour, IPointerDownHandler
         if (eventData.button == PointerEventData.InputButton.Right)
         {
             //Debug.Log("hello");
+            
             globals.mouse2 = eventData.position;
             globals.moveTo = globals.mouse2;
             globals.moveTo = globals.cam.ScreenToWorldPoint(globals.moveTo);
