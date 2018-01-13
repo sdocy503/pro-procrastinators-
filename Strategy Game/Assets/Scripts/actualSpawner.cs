@@ -7,7 +7,7 @@ public class actualSpawner : MonoBehaviour {
     public Text timerText;
     public GameObject character;
     public static Vector3 spawnPoint;
-    public GameObject building;
+
     // Use this for initialization
     void Start () {
 		
@@ -30,7 +30,7 @@ public class actualSpawner : MonoBehaviour {
             yield return new WaitForSeconds(1);
         }
         timerText.text = "";
-        spawnPoint = building.transform.GetComponent<Transform>().position;
+        spawnPoint = spawner.building.transform.GetComponent<Transform>().position;
         spawnPoint.x += 6.0f;
         Debug.Log(spawnPoint);
         GameObject temp;

@@ -6,12 +6,14 @@ using UnityEngine.UI;
 public class spawner : MonoBehaviour {
     public bool isMainCharacter;
     public actualSpawner mySpawner;
+    public static GameObject building;
+    public GameObject buildingEditor;
 
     bool oneSpawn = false;
     //Vector3 buildingLocation;
     // Use this for initialization
     void Start () {
-       
+        building = buildingEditor;
     }
 	public void OnMouseDown()
     {

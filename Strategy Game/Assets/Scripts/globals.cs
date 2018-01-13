@@ -7,10 +7,14 @@ public class globals : MonoBehaviour {
     public static Vector3 moveTo;
     public static Camera cam;
     public static bool newRallyPoint = false;
+    public AudioSource myPlayer;
+    public AudioClip gameTrack;
+
     // Use this for initialization
     void Start () {
         cam = Camera.main;
         moveTo = actualSpawner.spawnPoint;
+
 	}
 	
 	// Update is called once per frame
